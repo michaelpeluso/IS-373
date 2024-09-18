@@ -1,2 +1,4 @@
 # Kernel
-*Want to go back to the previous article? [Click Here](./README.md)!*
+*[↑ Previous Article](./README.md)*
+
+`[Info on Kernel]`

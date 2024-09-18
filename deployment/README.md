@@ -2,14 +2,14 @@
 
 `Intro to Deployment Technologies`
 
-# Kernel
+## Kernel
 
-*want to learn more about this subject? [Click here](./1-0-kernel.md)!*
+*[Learn More](./1-0-kernel.md)!*
 
-# Virtualization
+## Virtualization
 
-*want to learn more about this subject? [Click here](./2-0-virtualization.md)!*
+*[Learn More](./2-0-virtualization.md)!*
 
-# Containerization
+## Containerization
 
-*want to learn more about this subject? [Click here](./3-0-containerization.md)!*
+*[Learn More](./3-0-containerization.md)!*
