@@ -8,7 +8,7 @@ Local virtualization is a technology that allows a single physical computer to h
 ![Illustration of Virtualization Concept](https://www.cloud4u.com/upload/medialibrary/e69/what-is-a-virtualization-techology.png)
 *An illustration showing the abstraction layer of virtualization, depicting multiple virtual machines sharing a single physical server.*
 
-### The Concept of Virtualization ## 
+## The Concept of Virtualization
 
 Virtualization uses software to create an abstraction layer over physical hardware. This abstraction allows the division of a single computer's hardware components—such as the CPU, memory, and storage—into multiple virtual environments. Each virtual machine operates independently, with its own OS and applications, even though it shares the underlying physical resources with other VMs.
 
@@ -17,7 +17,7 @@ Virtualization uses software to create an abstraction layer over physical hardwa
 
 By leveraging virtualization, you can run multiple operating systems and applications on a single physical machine, optimizing hardware usage and reducing costs. This makes it an essential technology for both personal learning environments and enterprise IT infrastructure.
 
-### Benefits of Virtualization
+## Benefits of Virtualization
 
 Virtualization provides several significant advantages:
 
@@ -49,11 +49,11 @@ Virtualization provides several significant advantages:
    ![Provisioning New VMs](https://www.redhat.com/architect/sites/default/files/styles/embed_large/public/2021-09/twostep1.png?itok=6Xep_ekR)  
    *Illustration or screenshot showing the rapid provisioning of virtual machines using automation tools.*
 
-### Virtualization in Practice
+## Virtualization in Practice
 
 Virtualization is widely used across various domains, from personal desktop environments to large-scale data centers. It forms the backbone of cloud computing, where it enables cloud providers to offer scalable and flexible computing resources. Cloud services leverage virtualization to deliver Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), allowing users to access computing resources and applications on demand.
 
-#### Key Components
+### Key Components
 
 - **Virtual Machines (VMs)**: Virtual environments that simulate physical computers. Each VM operates with its own OS and applications, isolated from other VMs.
 
@@ -61,20 +61,20 @@ Virtualization is widely used across various domains, from personal desktop envi
   *Diagram or screenshot showing the configuration and components of a virtual machine.*
 
 - **Hypervisors**: Software layers that manage and allocate hardware resources to VMs. There are two types of hypervisors:
-  - **Type 1 (Bare-metal)**: Runs directly on the physical hardware, replacing the traditional OS.
-  - **Type 2 (Hosted)**: Runs on top of an existing OS, managing VMs as applications within that OS.
+  - **Type 1 (Bare-metal)**: Runs directly on the physical hardware, replacing the traditional OS. *[Learn More](./2-1-type1.md)*
+  - **Type 2 (Hosted)**: Runs on top of an existing OS, managing VMs as applications within that OS. *[Learn More](./2-2-type2.md)*
 
   ![Type 1 vs. Type 2 Hypervisors](https://i.sstatic.net/TAMdL.png)  
   *Illustration comparing Type 1 and Type 2 hypervisors, showing their different architectures and use cases.*
 
-### Getting Started with Virtualization
+## Getting Started with Virtualization
 
 For individuals and organizations interested in learning about or implementing virtualization, there are various tools and platforms available. This guide provides detailed instructions for setting up local virtualization environments on different operating systems, including Linux, macOS, and Windows. By following these instructions, you can begin exploring virtualization’s potential and apply it to your own projects or infrastructure.
 
 Explore the following sections for in-depth tutorials and resources on how to get started with virtualization on your chosen platform.
 
 
-### Local Virtualization: A Hands-On Guide to Running Your Own Server
+## Local Virtualization: A Hands-On Guide to Running Your Own Server
 
 Local virtualization allows you to create and manage virtual machines (VMs) on your computer, enabling you to run different operating systems and experiment with server configurations without affecting your main system. This guide will walk you through setting up local virtualization on Linux, macOS, and Windows.
 
@@ -82,132 +82,132 @@ Local virtualization allows you to create and manage virtual machines (VMs) on y
 
 **Linux** provides robust virtualization options. Here’s a guide to using VirtualBox and KVM.
 
-##### **VirtualBox**
+#### **VirtualBox**
 
-1. **Install VirtualBox**
+   1. **Install VirtualBox**
+   
+      For Debian-based distributions (e.g., Ubuntu):
+      ```bash
+      sudo apt update
+      sudo apt install virtualbox
+      ```
+   
+      For Red Hat-based distributions (e.g., Fedora):
+      ```bash
+      sudo dnf install VirtualBox
+      ```
+   
+      [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+   
+   2. **Create a New VM**
+   
+      Open VirtualBox and click “New”. Follow the prompts to choose the OS type, allocate memory, and create a virtual hard disk.
+   
+   3. **Install an Operating System**
+   
+      Insert the OS installation media (ISO file) and start the VM. Follow the OS installation instructions.
 
-   For Debian-based distributions (e.g., Ubuntu):
-   ```bash
-   sudo apt update
-   sudo apt install virtualbox
-   ```
+#### **KVM and QEMU**
 
-   For Red Hat-based distributions (e.g., Fedora):
-   ```bash
-   sudo dnf install VirtualBox
-   ```
+   1. **Install KVM and QEMU**
+   
+      For Debian-based distributions:
+      ```bash
+      sudo apt update
+      sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+      ```
+   
+      For Red Hat-based distributions:
+      ```bash
+      sudo dnf install @virtualization
+      ```
+   
+   2. **Verify Installation**
+   
+      Check if KVM modules are loaded:
+      ```bash
+      sudo lsmod | grep kvm
+      ```
+   
+   3. **Create and Manage VMs**
+   
+      Use `virt-manager` (Virtual Machine Manager) for a graphical interface or `virsh` for command-line management.
+   
+      Start `virt-manager`:
+      ```bash
+      sudo virt-manager
+      ```
+   
+      To create a VM using `virt-install`:
+      ```bash
+      sudo virt-install --name myvm --ram 2048 --disk path=/var/lib/libvirt/images/myvm.img,size=20 --vcpus 2 --os-type linux --os-variant ubuntu20.04 --network network=default --graphics spice --cdrom /path/to/ubuntu.iso
+      ```
+   
+      [Learn more about KVM and QEMU](https://www.linux-kvm.org/)
 
-   [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-
-2. **Create a New VM**
-
-   Open VirtualBox and click “New”. Follow the prompts to choose the OS type, allocate memory, and create a virtual hard disk.
-
-3. **Install an Operating System**
-
-   Insert the OS installation media (ISO file) and start the VM. Follow the OS installation instructions.
-
-##### **KVM and QEMU**
-
-1. **Install KVM and QEMU**
-
-   For Debian-based distributions:
-   ```bash
-   sudo apt update
-   sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
-   ```
-
-   For Red Hat-based distributions:
-   ```bash
-   sudo dnf install @virtualization
-   ```
-
-2. **Verify Installation**
-
-   Check if KVM modules are loaded:
-   ```bash
-   sudo lsmod | grep kvm
-   ```
-
-3. **Create and Manage VMs**
-
-   Use `virt-manager` (Virtual Machine Manager) for a graphical interface or `virsh` for command-line management.
-
-   Start `virt-manager`:
-   ```bash
-   sudo virt-manager
-   ```
-
-   To create a VM using `virt-install`:
-   ```bash
-   sudo virt-install --name myvm --ram 2048 --disk path=/var/lib/libvirt/images/myvm.img,size=20 --vcpus 2 --os-type linux --os-variant ubuntu20.04 --network network=default --graphics spice --cdrom /path/to/ubuntu.iso
-   ```
-
-   [Learn more about KVM and QEMU](https://www.linux-kvm.org/)
-
-#### Virtualization on macOS
+### Virtualization on macOS
 
 **macOS** users can use Parallels Desktop, VMware Fusion, or VirtualBox. Here’s a guide for VirtualBox, which is free and open-source.
 
-##### **VirtualBox**
+#### **VirtualBox**
 
-1. **Install VirtualBox**
+   1. **Install VirtualBox**
+   
+      Download and install from [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+   
+   2. **Create a New VM**
+   
+      Open VirtualBox and click “New”. Follow the prompts to set up your VM, selecting the appropriate OS type and allocating resources.
+   
+   3. **Install an Operating System**
+   
+      Insert the OS installation media (ISO file) and start the VM. Complete the installation as you would on a physical machine.
 
-   Download and install from [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+#### **Parallels Desktop and VMware Fusion**
 
-2. **Create a New VM**
-
-   Open VirtualBox and click “New”. Follow the prompts to set up your VM, selecting the appropriate OS type and allocating resources.
-
-3. **Install an Operating System**
-
-   Insert the OS installation media (ISO file) and start the VM. Complete the installation as you would on a physical machine.
-
-##### **Parallels Desktop and VMware Fusion**
-
-- **Parallels Desktop**: [Download Parallels Desktop](https://www.parallels.com/products/desktop/)
-- **VMware Fusion**: [Download VMware Fusion](https://www.vmware.com/products/fusion.html)
+   - **Parallels Desktop**: [Download Parallels Desktop](https://www.parallels.com/products/desktop/)
+   - **VMware Fusion**: [Download VMware Fusion](https://www.vmware.com/products/fusion.html)
 
 Both tools offer user-friendly interfaces for creating and managing VMs.
 
-#### Virtualization on Windows
+### Virtualization on Windows
 
 **Windows** users can use Hyper-V, VirtualBox, or VMware Workstation. Here’s how to use Hyper-V and VirtualBox.
 
 ##### **Hyper-V**
 
-1. **Enable Hyper-V**
+   1. **Enable Hyper-V**
+   
+      Open PowerShell as an Administrator and run:
+      ```powershell
+      Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+      ```
+   
+      Restart your computer when prompted.
+   
+   2. **Create a New VM**
+   
+      Open Hyper-V Manager. Click “New” > “Virtual Machine” and follow the wizard to configure your VM.
+   
+   3. **Install an Operating System**
+   
+      Attach the OS installation media and start the VM to begin installation.
 
-   Open PowerShell as an Administrator and run:
-   ```powershell
-   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
-   ```
+#### **VirtualBox**
 
-   Restart your computer when prompted.
+   1. **Install VirtualBox**
+   
+      Download and install from [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+   
+   2. **Create a New VM**
+   
+      Open VirtualBox and click “New”. Follow the wizard to configure your VM, including selecting the OS  and setting resources.
+   
+   3. **Install an Operating System**
+   
+      Attach the OS installation media (ISO file) and start the VM to begin installation.
 
-2. **Create a New VM**
-
-   Open Hyper-V Manager. Click “New” > “Virtual Machine” and follow the wizard to configure your VM.
-
-3. **Install an Operating System**
-
-   Attach the OS installation media and start the VM to begin installation.
-
-##### **VirtualBox**
-
-1. **Install VirtualBox**
-
-   Download and install from [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-
-2. **Create a New VM**
-
-   Open VirtualBox and click “New”. Follow the wizard to configure your VM, including selecting the OS  and setting resources.
-
-3. **Install an Operating System**
-
-   Attach the OS installation media (ISO file) and start the VM to begin installation.
-
-##### **VMware Workstation**
+#### **VMware Workstation**
 
 - **Download VMware Workstation**: [VMware Workstation Player](https://www.vmware.com/products/workstation-player.html) (free for non-commercial use)
 
