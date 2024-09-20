@@ -1,12 +1,14 @@
 # Kernel
 *[↑ Previous Article](./README.md)*
-
+![Illustration of Kernels place in Operating Systems](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1200px-Kernel_Layout.svg.png))
+*An illustration showing what Kernels place is in Operating Systems.*
 ## 1. What is a Kernel?
 A kernel is the core component of an operating system (OS) responsible for managing system resources like CPU, memory, and hardware devices. It acts as a bridge between applications and the hardware, managing communication, resource allocation, and ensuring smooth system operations.
 
 ## 2. Types of Kernels
 There are several types of kernels, and they differ in terms of design and functionality:
-
+![Illustration of Monolithic Kernel]([https://www.cloud4u.com/upload/medialibrary/e69/what-is-a-virtualization-techology.png](https://javatpoint-images.s3.eu-north-1.amazonaws.com/operating-system/images/monolithic-structure-of-operating-system.png))
+*An illustration showing a Monolithic Kernel System.*
 Monolithic Kernel: All OS services run in the same memory space (kernel space), which provides better performance. Examples include Linux and Unix kernels.
 Microkernel: Only the most essential services (like CPU scheduling and inter-process communication) run in kernel space, while others run in user space. This can enhance modularity and stability. Examples include Minix and QNX.
 Hybrid Kernel: A mix of both monolithic and microkernel architectures. Windows NT and macOS use hybrid kernels.
