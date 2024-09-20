@@ -7,7 +7,7 @@ A kernel is the core component of an operating system (OS) responsible for manag
 
 ## 2. Types of Kernels
 There are several types of kernels, and they differ in terms of design and functionality:
-![Illustration of Monolithic Kernel]([[https://www.cloud4u.com/upload/medialibrary/e69/what-is-a-virtualization-techology.png](https://javatpoint-images.s3.eu-north-1.amazonaws.com/operating-system/images/monolithic-structure-of-operating-system.png)])
+![Illustration of Monolithic Kernel](https://javatpoint-images.s3.eu-north-1.amazonaws.com/operating-system/images/monolithic-structure-of-operating-system.png)
 *An illustration showing a Monolithic Kernel System.*
 Monolithic Kernel: All OS services run in the same memory space (kernel space), which provides better performance. Examples include Linux and Unix kernels.
 Microkernel: Only the most essential services (like CPU scheduling and inter-process communication) run in kernel space, while others run in user space. This can enhance modularity and stability. Examples include Minix and QNX.
