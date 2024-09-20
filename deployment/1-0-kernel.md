@@ -1,23 +1,29 @@
 # Kernel
 *[↑ Previous Article](./README.md)*
+
+## 1. What is a Kernel?
+
+A kernel is the core component of an operating system (OS) responsible for managing system resources like CPU, memory, and hardware devices. It acts as a bridge between applications and the hardware, managing communication, resource allocation, and ensuring smooth system operations.
 <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1200px-Kernel_Layout.svg.png" alt="Illustration of Kernels place in Operating Systems" width="500"/>
 <br>
 *An illustration showing what Kernel's place is in Operating Systems as a whole.*
 <br>
-## 1. What is a Kernel?
-A kernel is the core component of an operating system (OS) responsible for managing system resources like CPU, memory, and hardware devices. It acts as a bridge between applications and the hardware, managing communication, resource allocation, and ensuring smooth system operations.
-
 ## 2. Types of Kernels
 There are several types of kernels, and they differ in terms of design and functionality:
+
+Monolithic Kernel: All OS services run in the same memory space (kernel space), which provides better performance. Examples include Linux and Unix kernels.
+Microkernel: Only the most essential services (like CPU scheduling and inter-process communication) run in kernel space, while others run in user space. This can enhance modularity and stability. Examples include Minix and QNX.
 ![Illustration of Monolithic Kernel](https://javatpoint-images.s3.eu-north-1.amazonaws.com/operating-system/images/monolithic-structure-of-operating-system.png)
 <br>
 *An illustration showing a Monolithic Kernel System.*
 <br><br>
-Monolithic Kernel: All OS services run in the same memory space (kernel space), which provides better performance. Examples include Linux and Unix kernels.
-Microkernel: Only the most essential services (like CPU scheduling and inter-process communication) run in kernel space, while others run in user space. This can enhance modularity and stability. Examples include Minix and QNX.
 Hybrid Kernel: A mix of both monolithic and microkernel architectures. Windows NT and macOS use hybrid kernels.
 Exokernel: A lightweight kernel that gives applications more control over hardware resources, used in academic research and specialized systems.
+![Illustration of Monolithic Kernel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Windows_2000_architecture.svg/275px-Windows_2000_architecture.svg.png)
+<br>
+*An illustration showing a Monolithic Kernel System.*
+<br><br>
 ## 3. Role of Kernels in Deployment Technology
 #### a) Resource Management
 CPU Scheduling: The kernel manages which processes use the CPU and for how long.
