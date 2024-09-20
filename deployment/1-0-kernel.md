@@ -1,5 +1,6 @@
 # Kernel
 *[↑ Previous Article](./README.md)*
+<br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1200px-Kernel_Layout.svg.png" alt="Illustration of Kernels place in Operating Systems" width="500"/>
 <br>
 *An illustration showing what Kernels place is in Operating Systems.*
