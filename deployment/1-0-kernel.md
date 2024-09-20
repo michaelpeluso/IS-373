@@ -20,9 +20,9 @@ Microkernel: Only the most essential services (like CPU scheduling and inter-pro
 <br><br>
 Hybrid Kernel: A mix of both monolithic and microkernel architectures. Windows NT and macOS use hybrid kernels.
 Exokernel: A lightweight kernel that gives applications more control over hardware resources, used in academic research and specialized systems.
-![Illustration of Monolithic Kernel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Windows_2000_architecture.svg/275px-Windows_2000_architecture.svg.png)
+![Illustration of Hybrid Kernel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Windows_2000_architecture.svg/275px-Windows_2000_architecture.svg.png)
 <br>
-*An illustration showing a Monolithic Kernel System.*
+*An illustration showing a Hybrid Kernel System.*
 <br><br>
 ## 3. Role of Kernels in Deployment Technology
 #### a) Resource Management
