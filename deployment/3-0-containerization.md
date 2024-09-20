@@ -27,6 +27,8 @@ Containerization plays a significant role in cloud computing by providing the fo
 
 ## How Containerization Works
 
+![](https://www.cloud4u.com/upload/medialibrary/315/os_virtualization.jpg)
+
 At its core, containerization leverages features of the host operating system (OS) to run multiple containers simultaneously. Each container shares the OS kernel but operates in its own isolated user space. This means that applications running in containers can access the same underlying resources while remaining independent from each other.
 
 Containers encapsulate everything an application needs to run, including code, runtime, libraries, and environment variables. This packaging allows developers to create a consistent environment that behaves the same way across different stages of development and in various deployment environments.
@@ -73,6 +75,8 @@ Security is a crucial aspect of containerization, and several strategies can hel
 
 ### Docker vs. Virtual Machines (VMs)
 
+![Containerization vs VMs diagram](https://www.netscaler.com/content/dam/netscaler/images/graphics/infographics/what-is-containerization.png)
+
 | Feature                    | Docker (Containers)                             | Virtual Machines (VMs)                        |
 |----------------------------|------------------------------------------------|----------------------------------------------|
 | **Architecture**           | Shares the host OS kernel; lightweight         | Runs a full OS instance; heavier             |
@@ -83,6 +87,8 @@ Security is a crucial aspect of containerization, and several strategies can hel
 | **Management Complexity**   | Easier to manage; tools like Docker Compose simplify management | More complex; requires hypervisor management  |
 
 ### Docker vs. Kubernetes
+
+![Docker vs Kubernetes architecture](https://miro.medium.com/v2/resize:fit:800/1*AHS64klKy4SJCALDOgiy5Q.png)
 
 | Feature                    | Docker                                           | Kubernetes                                      |
 |----------------------------|-------------------------------------------------|------------------------------------------------|
