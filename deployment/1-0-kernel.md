@@ -1,6 +1,6 @@
 # Kernel
 *[↑ Previous Article](./README.md)*
-![Illustration of Kernels place in Operating Systems](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1200px-Kernel_Layout.svg.png))
+![Illustration of Kernels place in Operating Systems](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1200px-Kernel_Layout.svg.png)
 *An illustration showing what Kernels place is in Operating Systems.*
 ## 1. What is a Kernel?
 A kernel is the core component of an operating system (OS) responsible for managing system resources like CPU, memory, and hardware devices. It acts as a bridge between applications and the hardware, managing communication, resource allocation, and ensuring smooth system operations.
