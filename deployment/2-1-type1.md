@@ -1,5 +1,5 @@
 # Virtualization Hypervisors: Type 1
-*[↑ Previous Article](./2-0-virtualization.md)!*
+*[↑ Previous Article](./2-0-virtualization.md)*
 
 
 ## Introduction

@@ -1,5 +1,5 @@
 # Virtualization Hypervisors: Type 2
-*[↑ Previous Article](./2-0-virtualization.md)!*
+*[↑ Previous Article](./2-0-virtualization.md)*
 
 ## Introduction
 While Type 1 hypervisors operate directly on hardware, Type 2 hypervisors, also known as **hosted hypervisors**, run atop a conventional operating system. This section explores Type 2 hypervisors, examining their architecture, benefits, drawbacks, and typical applications in various computing environments.
