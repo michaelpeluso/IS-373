@@ -12,21 +12,21 @@ Microkernel: Only the most essential services (like CPU scheduling and inter-pro
 Hybrid Kernel: A mix of both monolithic and microkernel architectures. Windows NT and macOS use hybrid kernels.
 Exokernel: A lightweight kernel that gives applications more control over hardware resources, used in academic research and specialized systems.
 ## 3. Role of Kernels in Deployment Technology
-a) Resource Management
+#### a) Resource Management
 CPU Scheduling: The kernel manages which processes use the CPU and for how long.
 Memory Management: It handles memory allocation and ensures that processes do not interfere with each other.
 Device Management: The kernel interacts with hardware components like disks, network cards, and graphics cards through drivers.
-### b) Security and Isolation
+#### b) Security and Isolation
 The kernel provides process isolation, ensuring that one application’s memory space cannot be accessed by another, protecting the system from crashes or security breaches.
 In cloud deployments, kernels (especially hypervisors) provide isolation between virtual machines (VMs), allowing multiple VMs to run on the same physical hardware securely.
-### c) Kernel in Virtualization
+#### c) Kernel in Virtualization
 Virtualization relies on the kernel to emulate physical hardware resources. Hypervisors like KVM (Kernel-based Virtual Machine) use the Linux kernel to create and manage VMs.
 Paravirtualization is where the kernel is aware of its virtualized environment, optimizing the interaction between the guest OS and the hypervisor.
-### d) Kernels in Containers
+#### d) Kernels in Containers
 Containers (e.g., Docker, Kubernetes) use a shared kernel to isolate applications, meaning that all containers on a host share the same kernel.
 This is different from VMs where each VM has its own kernel. Sharing a kernel allows containers to be more lightweight and efficient compared to VMs.
 Technologies like cgroups (control groups) and namespaces within the Linux kernel are essential for containerization. Cgroups limit the resources that a container can use, while namespaces provide isolation for processes, networking, and file systems.
-### e) Kernel in Cloud Infrastructure
+#### e) Kernel in Cloud Infrastructure
 Cloud providers like AWS, Google Cloud, and Microsoft Azure use customized kernels to manage VMs and containers at scale. These kernels are optimized for performance, security, and isolation.
 Many cloud platforms use Linux Kernels due to their flexibility and open-source nature, allowing deep customization.
 ## 4. Kernel Optimizations for Deployment
