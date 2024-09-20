@@ -4,7 +4,7 @@
 ## 1. What is a Kernel?
 A kernel is the core component of an operating system (OS) responsible for managing system resources like CPU, memory, and hardware devices. It acts as a bridge between applications and the hardware, managing communication, resource allocation, and ensuring smooth system operations.
 
-# 2. Types of Kernels
+## 2. Types of Kernels
 There are several types of kernels, and they differ in terms of design and functionality:
 
 Monolithic Kernel: All OS services run in the same memory space (kernel space), which provides better performance. Examples include Linux and Unix kernels.
