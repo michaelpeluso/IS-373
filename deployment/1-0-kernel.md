@@ -23,7 +23,7 @@ Exokernel: A lightweight kernel that gives applications more control over hardwa
 ![Illustration of Hybrid Kernel](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Windows_2000_architecture.svg/275px-Windows_2000_architecture.svg.png)
 <br>
 *An illustration showing a Hybrid Kernel System.*
-<br><br>
+<br>
 ## 3. Role of Kernels in Deployment Technology
 #### a) Resource Management
 CPU Scheduling: The kernel manages which processes use the CPU and for how long.
