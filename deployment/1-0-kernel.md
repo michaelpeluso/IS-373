@@ -10,7 +10,7 @@ There are several types of kernels, and they differ in terms of design and funct
 ![Illustration of Monolithic Kernel](https://javatpoint-images.s3.eu-north-1.amazonaws.com/operating-system/images/monolithic-structure-of-operating-system.png)
 <br>
 *An illustration showing a Monolithic Kernel System.*
-<br>
+<br><br>
 Monolithic Kernel: All OS services run in the same memory space (kernel space), which provides better performance. Examples include Linux and Unix kernels.
 Microkernel: Only the most essential services (like CPU scheduling and inter-process communication) run in kernel space, while others run in user space. This can enhance modularity and stability. Examples include Minix and QNX.
 Hybrid Kernel: A mix of both monolithic and microkernel architectures. Windows NT and macOS use hybrid kernels.
