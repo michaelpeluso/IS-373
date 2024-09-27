@@ -40,6 +40,7 @@ Containerization packages applications with everything they need to run into lig
 ### Key Components
 - **Docker**: A popular tool for creating and running containers. It uses Dockerfiles to define environments.
 - **Kubernetes**: A system for managing and scaling containerized applications automatically.
+- **K3s**
 
 ### Benefits
 - **Portability**: Containers can run anywhere with a compatible system, ensuring consistent performance.
