@@ -99,11 +99,22 @@ Security is a crucial aspect of containerization, and several strategies can hel
 | **Networking**             | Simple networking capabilities                   | Advanced networking features, including service discovery and load balancing |
 | **Use Case**               | Suitable for development and individual deployments | Best for complex applications requiring orchestration and multi-container management |
 
+### K3s
+
+K3s is a lightweight distribution of Kubernetes designed for resource-constrained environments, such as IoT and edge computing. It simplifies the installation process and reduces the overhead typically associated with Kubernetes while maintaining essential Kubernetes features.
+
+| Feature                    | K3s                                          | Kubernetes                                      |
+|----------------------------|----------------------------------------------|------------------------------------------------|
+| **Lightweight**            | Designed to run with minimal resources      | More resource-intensive                         |
+| **Installation**           | Simplified installation process              | More complex installation                       |
+| **Built-in Components**    | Includes built-in components like Flannel for networking and SQLite for the database | Requires separate installations for various components |
+| **Use Case**               | Ideal for edge computing and IoT applications | Suitable for large-scale production environments |
+
 ### Summary
 
 Docker provides a lightweight and efficient way to package applications into containers, ideal for rapid deployment and microservices architectures. In contrast, virtual machines offer more robust isolation but at the cost of resource efficiency and speed.
 
-Kubernetes, on the other hand, complements Docker by providing advanced orchestration capabilities, making it essential for managing containerized applications in production environments. While Docker focuses on the creation and management of containers, Kubernetes handles the deployment, scaling, and networking of those containers, allowing for complex applications to run smoothly.
+Kubernetes, on the other hand, complements Docker by providing advanced orchestration capabilities, making it essential for managing containerized applications in production environments. K3s serves as a more lightweight alternative to Kubernetes, making it suitable for edge computing and IoT scenarios.
 
 In the realm of deployment technologies, Docker and Kubernetes stand out as leading tools that leverage containerization. Docker simplifies the process of creating and managing containers, while Kubernetes orchestrates and manages the deployment of those containers across clusters of machines.
 
@@ -118,3 +129,9 @@ Docker is an open-source platform that automates the deployment of applications 
 Kubernetes is an open-source orchestration system for automating the deployment, scaling, and management of containerized applications. It provides powerful features like load balancing, self-healing, and rolling updates, making it essential for managing complex applications in production.
 
 *[Learn More](./3-2-kubernetes.md)*
+
+## K3s
+
+K3s is a lightweight Kubernetes distribution designed for use in resource-constrained environments, such as edge computing and IoT applications. It simplifies installation and reduces overhead while retaining the essential functionalities of Kubernetes.
+
+*[Learn More](./3-3-k3s.md)*
