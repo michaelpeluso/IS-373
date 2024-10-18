@@ -1,5 +1,5 @@
 # Kernel
-[Home](index.md) > [Kernel](1-0.kernel.md)
+[Home](index.md) > **Kernel**
 
 *[↑ Previous Article](./index.md)*
 
