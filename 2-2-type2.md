@@ -1,3 +1,5 @@
+[Home](index.md) > [Virtualization](2-0-virtualization.md) > **Type 2**
+
 # Virtualization Hypervisors: Type 2
 *[↑ Previous Article](./2-0-virtualization.md)*
 

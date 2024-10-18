@@ -1,3 +1,5 @@
+[Home](index.md) > **Virtualization**
+
 # Virtualization
 *[↑ Previous Article](./index.md)*
 
@@ -64,7 +66,7 @@ Virtualization is widely used across various domains, from personal desktop envi
   - **Type 1 (Bare-metal)**: Runs directly on the physical hardware, replacing the traditional OS. *[Learn More](./2-1-type1.md)*
   - **Type 2 (Hosted)**: Runs on top of an existing OS, managing VMs as applications within that OS. *[Learn More](./2-2-type2.md)*
 
-  ![Type 1 vs. Type 2 Hypervisors](https://i.sstatic.net/TAMdL.png)  
+  ![Type 1 vs. Type 2 Hypervisors](https://www.techtarget.com/rms/onlineImages/server_virt-hypervisor.jpg)  
   *Illustration comparing Type 1 and Type 2 hypervisors, showing their different architectures and use cases.*
 
 ## Getting Started with Virtualization
