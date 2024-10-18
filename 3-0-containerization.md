@@ -35,6 +35,7 @@ Containerization plays a significant role in cloud computing by providing the fo
 
 ![Virtualization Container/OS hierarchy](https://www.cloud4u.com/upload/medialibrary/315/os_virtualization.jpg)
 
+
 At its core, containerization leverages features of the host operating system (OS) to run multiple containers simultaneously. Each container shares the OS kernel but operates in its own isolated user space. This means that applications running in containers can access the same underlying resources while remaining independent from each other.
 
 Containers encapsulate everything an application needs to run, including code, runtime, libraries, and environment variables. This packaging allows developers to create a consistent environment that behaves the same way across different stages of development and in various deployment environments.
