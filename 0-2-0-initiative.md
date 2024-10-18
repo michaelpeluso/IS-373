@@ -1,12 +1,12 @@
 <div class="breadcrumbs">
 
-[Home](../index.md) > [Initiatives](./index.md) > **Content Accessibility and Interaction**
+[Home](./index.md) > [Initiatives](./0-0-initiative.md) > **Content Accessibility and Interaction**
 
 </div>
 
 # 2.0 Initiative: **Content Accessibility and Interaction**
 
-*[↑ Previous Article](./index.md)*
+*[↑ Previous Article](./0-0-initiative.md)*
 
 ## 2.0.1 Acceptance Criteria:
 - Content should be accessible and readable for all users.

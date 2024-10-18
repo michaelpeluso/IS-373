@@ -1,12 +1,12 @@
 <div class="breadcrumbs">
 
-[Home](../index.md) > [Initiatives](./index.md) > **User-Friendly Navigation**
+[Home](./index.md) > [Initiatives](./0-0-initiative.md) > **User-Friendly Navigation**
 
 </div>
 
 # 1.0 Initiative: **User-Friendly Navigation**
 
-*[↑ Previous Article](./index.md)*
+*[↑ Previous Article](./0-0-initiative.md)*
 
 ## 1.0.1 Acceptance Criteria:
 - The user should be able to navigate the website easily using the navigation bar and links.
