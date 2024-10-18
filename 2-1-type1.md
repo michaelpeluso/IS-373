@@ -1,4 +1,8 @@
+<div class="breadcrumbs">
+
 [Home](index.md) > [Virtualization](2-0-virtualization.md) > **Type 1**
+
+</div>
 
 # Virtualization Hypervisors: Type 1
 *[↑ Previous Article](./2-0-virtualization.md)*
