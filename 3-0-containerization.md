@@ -1,5 +1,7 @@
+[Home](index.md) > **Containerization**
+
 # Containerization
-*[↑ Previous Article](./README.md)*
+*[↑ Previous Article](./index.md)*
 
 Containerization is a technology that allows applications to be packaged with their dependencies into isolated units called containers. This approach streamlines deployment, improves resource efficiency, and enhances scalability. By encapsulating an application along with its environment, containers ensure that it runs consistently across various computing environments.
 

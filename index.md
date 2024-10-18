@@ -52,3 +52,8 @@ Containerization packages applications with everything they need to run into lig
 - **CI/CD**: Containers support rapid deployment and updates in development pipelines.
 
 *[Learn More](./3-0-containerization.md)*
+
+## Team members
+- Michael Peluso
+- Brian Dong
+- Oscar Feliz

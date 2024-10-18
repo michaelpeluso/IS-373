@@ -1,5 +1,8 @@
+[Home](index.md) > **Kernel**
+
 # Kernel
-*[↑ Previous Article](./README.md)*
+
+*[↑ Previous Article](./index.md)*
 
 ## 1. What is a Kernel?
 
