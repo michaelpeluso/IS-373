@@ -1,6 +1,6 @@
 <div class="breadcrumbs">
 
-[Home](./index.md) > [Initiatives](./0-0-initiative.md) > **User-Friendly Navigation**
+[Home](index.md) > [Initiatives](0-0-initiative.md) > **User-Friendly Navigation**
 
 </div>
 

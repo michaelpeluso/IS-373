@@ -1,6 +1,6 @@
 <div class="breadcrumbs">
 
-[Home](./index.md) > [Initiatives](./0-0-initiative.md) > **Content Accessibility and Interaction**
+[Home](index.md) > [Initiatives](0-0-initiative.md) > **Content Accessibility and Interaction**
 
 </div>
 
