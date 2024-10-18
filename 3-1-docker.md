@@ -70,7 +70,7 @@ A typical `docker-compose.yml` file specifies the services, networks, and volume
 
 #### Docker Networks
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*WKiEgPXO8XXppoqgr7ZVQA.png)
+![Docker network diagram for bridge, none and host](https://miro.medium.com/v2/resize:fit:1400/1*WKiEgPXO8XXppoqgr7ZVQA.png)
 
 Docker provides several networking options to allow containers to communicate with each other and the outside world. Networking is crucial for multi-container applications where services need to interact.
 

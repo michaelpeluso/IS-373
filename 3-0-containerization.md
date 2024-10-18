@@ -33,7 +33,7 @@ Containerization plays a significant role in cloud computing by providing the fo
 
 ## How Containerization Works
 
-![](https://www.cloud4u.com/upload/medialibrary/315/os_virtualization.jpg)
+![Virtualization Container/OS hierarchy](https://www.cloud4u.com/upload/medialibrary/315/os_virtualization.jpg)
 
 At its core, containerization leverages features of the host operating system (OS) to run multiple containers simultaneously. Each container shares the OS kernel but operates in its own isolated user space. This means that applications running in containers can access the same underlying resources while remaining independent from each other.
 
