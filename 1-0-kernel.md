@@ -1,4 +1,6 @@
 # Kernel
+[Home](index.md) > [Kernel](1-0.kernel.md)
+
 *[↑ Previous Article](./index.md)*
 
 ## 1. What is a Kernel?
